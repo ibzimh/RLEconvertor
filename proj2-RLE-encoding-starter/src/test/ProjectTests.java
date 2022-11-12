@@ -10,8 +10,6 @@ import app.*;
 public class ProjectTests {
    RLEconverter conv;
    
-   /** Fixture initialization (common initialization
-    *  for all tests). **/
    @Before public void setUp() {
      conv = new RLEconverter();  
    }
